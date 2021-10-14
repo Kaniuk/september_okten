@@ -37,7 +37,8 @@ a:hover {
 .mainImg {
     width: 30%;
 }
-.mainHero > img{
+
+.mainHero > img {
     width: auto;
 }
 
