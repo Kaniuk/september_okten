@@ -1,0 +1,110 @@
+.main {
+    width: 700px;
+    height: 500px;
+    background: silver;
+    border: 5px solid silver;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.a {
+    height: 200px;
+    width: 100%;
+    background: grey;
+}
+
+.content {
+    height: 280px;
+    display: flex;
+
+}
+
+.b {
+    border-right: 10px solid silver;
+    background: grey;
+    flex-grow: 4;
+}
+
+.c {
+    background: grey;
+    flex-grow: 1;
+}
+
+
+
+
+.page {
+    margin-top: 25px;
+    width: 500px;
+    height: 750px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header_1, .footer {
+    width: 100%;
+    height: 150px;
+    background: lightgreen;
+}
+
+.menu {
+    height: 400px;
+    width: 180px;
+    background: plum;
+}
+
+.content_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post1 {
+    height: 190px;
+    width: 300px;
+    background: cornflowerblue;
+}
+
+
+
+
+.page1 {
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.widget {
+    width: 100%;
+    height: 200px;
+    background: blue;
+}
+
+.bigWidgets {
+    display: flex;
+}
+
+.bigWidget {
+    width: 200px;
+    height: 250px;
+    background: darkslateblue;
+}
+
+.contact {
+    width: 100%;
+    height: 400px;
+    background: blue;
+}
