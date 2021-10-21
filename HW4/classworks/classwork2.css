@@ -1,0 +1,214 @@
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.f-direction {
+    flex-direction: column;
+}
+
+.h125 {
+    height: 125px;
+}
+
+.w125 {
+    width: 125px;
+}
+
+.b-r10 {
+    border-radius: 10px;
+}
+
+.b-r50 {
+    border-radius: 50%;
+}
+
+.bg1 {
+    background: darkslateblue;
+}
+
+.bg2 {
+    background: lightgray;
+}
+
+.bg3 {
+    background: dodgerblue;
+}
+
+.color2 {
+    color: lightgray;
+}
+
+.color1 {
+    color: darkslateblue;
+}
+
+.color3 {
+    color: dodgerblue;
+}
+
+
+.page {
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    flex-direction: column;
+
+}
+
+.header {
+    height: 300px;
+
+    flex-direction: column;
+}
+
+.header__text {
+    padding-left: 450px;
+    align-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.header__menu {
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__icon {
+    height: 40px;
+}
+
+.banner, .banner_1__button {
+    height: 25px;
+}
+
+.header_banner {
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__text {
+    align-items: center;
+    width: 40%;
+}
+
+.content {
+    height: 300px;
+
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.content__title {
+    align-items: center;
+}
+
+.content__body {
+    height: 60%;
+
+    grid-column-gap: 20px;
+}
+
+.content-wrapper {
+    width: 80%;
+    border: 2px solid dodgerblue;
+    margin: 0 auto;
+}
+
+
+.article {
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer {
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    width: 80%;
+    justify-content: space-around;
+}
+
+.icon {
+    align-items: center;
+    flex-direction: column;
+    grid-row-gap: 10px;
+}
+
+.icon__wrapper {
+    width: 30%;
+    border: 2px solid dodgerblue;
+}
+
+.cards-wrapper {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    flex-wrap: wrap;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+}
+
+.card {
+    width: 150px;
+    border: 2px solid blue;
+    padding: 5px;
+
+    align-items: center;
+
+}
+
+.picture {
+    width: 145px;
+    height: 90px;
+}
+
+.picture_description {
+    align-self: center;
+
+}
+
+.information {
+    justify-content: space-between;
+    border-top: 2px solid blue;
+    width: 100%;
+}
+
+.banners {
+    width: 80%;
+    padding: 50px 0;
+
+}
+
+.banner_1 {
+    height: 200px;
+    flex-grow: 2;
+    padding-left: 20px;
+}
+
+.bottom {
+    height: 150px;
+}
+
+.bottom__buttons {
+    grid-column-gap: 10px;
+}
+
+.bottom__button {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bottom__line {
+    height: 3px;
+    width: 25%;
+    margin: 20px 300px 0;
+}
