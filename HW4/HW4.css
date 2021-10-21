@@ -1,0 +1,178 @@
+.bg-1 {
+    background: lightgray;
+}
+
+.b-r {
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.h100per {
+    height: 100%;
+}
+
+.main {
+    width: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 5px solid grey;
+    padding: 5px;
+
+    flex-direction: column;
+    grid-row-gap: 5px;
+}
+
+.main__header {
+    height: 100px;
+}
+
+.main__content {
+    height: 300px;
+    grid-column-gap: 5px;
+}
+
+.main__content__left {
+    flex-grow: 3;
+}
+
+
+
+
+.flex-g1 {
+    flex-grow: 1;
+}
+
+.page {
+    width: 500px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    flex-direction: column;
+}
+
+#page__header, #page__content__footer {
+    height: 100px;
+    background: lime;
+    margin: 10px 0;
+}
+
+.page__content {
+    grid-column-gap: 10px;
+
+}
+
+#page__content__menu {
+    height: 400px;
+    background: deeppink;
+
+}
+
+.page__content__posts {
+    flex-grow: 3;
+    flex-direction: column;
+    grid-row-gap: 10px;
+}
+
+.page__content__posts__post {
+    height: 50%;
+    background: royalblue;
+}
+
+
+
+
+.bg-2 {
+    background: blue;
+}
+
+.bd-3 {
+    background: darkblue;
+}
+
+.font {
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    flex-direction: column;
+    grid-row-gap: 10px;
+}
+
+.menu__widget {
+    height: 300px;
+
+}
+
+.menu__bigWidgets {
+    grid-column-gap: 10px;
+}
+
+.menu__bigWidgets__bigWidget {
+    height: 280px;
+    width: 33.333%;
+
+}
+
+.menu__contact {
+    height: 600px;
+}
+
+
+
+
+
+.h100px {
+    height: 100px;
+}
+
+.big_menu {
+    width: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    flex-direction: column;
+}
+
+.big_menu__header {
+    background: royalblue;
+}
+
+.big_menu__nav {
+    height: 80px;
+    background: blueviolet;
+}
+
+.big_menu__content {
+    height: 500px;
+}
+
+.big_menu__content__main {
+    flex-grow: 3;
+    background: dodgerblue;
+}
+
+.big_menu__content__aside {
+    background: darkorchid;
+}
+
+.big_menu__footer {
+    background: aquamarine;
+}
+
+
+
+
+
