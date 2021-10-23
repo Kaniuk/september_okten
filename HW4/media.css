@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+    .header__text, .menu__description,
+    .banner__text > p {
+        display: none;
+    }
+
+    .header__menu {
+        display: inline;
+    }
+
+    .nav__button {
+        display:flex;
+    }
+
+    .menu__icon {
+        margin: 15px 0 0 20px;
+    }
+
+    .content {
+        padding: 20px 0;
+    }
+
+    .icons {
+        flex-direction: column;
+    }
+
+    .banners {
+        flex-direction: column;
+    }
+
+}
