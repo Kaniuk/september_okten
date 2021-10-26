@@ -11,42 +11,254 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
-  /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Tinos', serif;
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+    box-sizing: border-box;
 }
+
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    height: 850px;
+    background: url("../image/bg.png") no-repeat center/cover;
+
+}
+
+.nav__item img {
+    width: 20px;
+}
+
+.header__top {
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    border-right: 2px solid #FFFFFF;
+    padding-right: 15px;
+    height: 56px;
+
+    display: flex;
+    grid-column-gap: 23px;
+    align-items: center;
+
+}
+
+.nav__item a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__menu {
+
+    display: flex;
+    align-items: center;
+    height: 70px;
+    column-gap: 35px;
+}
+
+
+.header__info {
+
+    display: flex;
+    align-items: center;
+    column-gap: 47px;
+
+}
+
+.contacts {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 155px;
+
+}
+
+.header__button button,
+.invitation__button button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #FF7400;
+    padding: 0 19px;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__content {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invitation {
+    padding-bottom: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.invitation h2 {
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+
+}
+
+.invitation h1 {
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+
+}
+
+.invitation p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+
+}
+
+.invitation p::before,
+.invitation p::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+.invitation p::before {
+    margin-right: 10px;
+}
+
+.invitation p::after {
+    margin-left: 10px;
+}
+
+
+.expander {
+    flex-grow: 2;
+}
+
+.invitation__button button {
+    margin-top: 35px;
+    padding: 0 27px;
+
+}
+
+.advertising {
+    height: 372px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.offers {
+    display: flex;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+
+    position: absolute;
+    top: -120px;
+
+}
+
+.offer {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 350px;
+    height: 330px;
+    padding: 0 40px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.offer img {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.offer h3 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+
+.offer p {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+
 }
 

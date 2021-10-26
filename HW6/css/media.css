@@ -1,0 +1,48 @@
+@media screen and (max-width: 400px) {
+    .header__menu,
+    .invitation p::before,
+    .invitation p::after,
+    .expander {
+        display: none;
+    }
+
+    .header {
+        padding-top: 20px;
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .invitation h2 {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .invitation h1 {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .invitation p {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .offers {
+        flex-direction: column;
+    }
+
+    .offer {
+        width: 100%;
+        padding: 0;
+    }
+}
