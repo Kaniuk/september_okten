@@ -207,22 +207,34 @@ table {
 }
 
 .advertising {
-    height: 372px;
+    /*height: 372px;*/
+    background: #E5E5E5;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    position: relative;
+    /*position: relative;*/
+}
+
+.block {
+    background: #E5E5E5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .offers {
+    padding-bottom: 150px;
+
     display: flex;
     grid-column-gap: 30px;
     grid-row-gap: 15px;
 
-    position: absolute;
-    top: -120px;
+    /* position: absolute;
+     top: -120px;*/
+    margin-top: -100px;
 
 }
 
@@ -262,3 +274,80 @@ table {
 
 }
 
+.offer h3 > span {
+    color: #BC9060;
+}
+
+.nav__btn_mobile {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.nav__btn_mobile span {
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+}
+
+.history {
+    display: flex;
+    /*row-gap: 125px;*/
+    column-gap: 125px;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.history__story {
+    width: 445px;
+    height: 217px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', serif;
+}
+
+.history__story h2 {
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+}
+
+.history__story h2 > span {
+    color: #D67E34;
+}
+
+.history__story > p {
+    margin: 20px 0 80px 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+
+.numbers {
+    display: flex;
+    column-gap: 45px;
+    row-gap: 20px;
+}
+
+.number h2 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.number p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
